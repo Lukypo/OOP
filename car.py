@@ -16,4 +16,4 @@ class Car:
         if self.speed < 0:
             self.speed = 0
 
-        print(self.speed)
+        print(f"Current speed is: {self.speed}km/h")
